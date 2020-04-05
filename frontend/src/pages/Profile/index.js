@@ -35,7 +35,7 @@ export default function Profile() {
         }
       });
 
-      setIncidents(incidents.filter(incidents => incidents.id != id));
+      setIncidents(incidents.filter(incidents => incidents.id !== id));
     } catch (error) {
       alert('Erro ao deleter caso, tente novamente')
     }
